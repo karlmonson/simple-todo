@@ -1,10 +1,17 @@
-#Simple To-Do List
+# Simple To-Do List
 
 This is a simple to-do list app built with Laravel and VueJS.
 
 ## Setup
 
-Clone this repository, create a new database, then run:
+Clone this repository, then run the following command to install the required packages using composer:
+
+```bash
+composer install
+cp env.example .env
+```
+
+Next, create a database and enter the credentials in your new `.env` file. Then run:
 
 ```bash
 php artisan migrate --seed
